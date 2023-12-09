@@ -1,9 +1,0 @@
-meme_dict = {
-            "ZXCTALANT": "Ты талант",
-            "ЧВК ПИРАТ": "ну сомнительный тип"
-            }
-word = input("Введите непонятное слово (большими буквами!): ")
-if word in meme_dict.keys():
-    print(meme_dict[word])
-else:
-    print("я не знаю такого слова :(((")
